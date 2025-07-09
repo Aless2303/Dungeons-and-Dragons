@@ -1,0 +1,3 @@
+usa1 11 charisma Dormitor
+usa2 12 constitution Labirint
+usa3 13 intelligence MindRoom

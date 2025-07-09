@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\rase">
+      <UniqueIdentifier>{cf14fc05-6853-4cda-842c-3ca58135b464}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\rasecpp">
+      <UniqueIdentifier>{c57105b9-00ed-44ab-bfcf-f6cf9144bdc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\clase">
+      <UniqueIdentifier>{42ea59ef-ffd6-49f2-bc8a-b725f7fef0e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\clasecpp">
+      <UniqueIdentifier>{810e0b53-e84c-4f87-9c80-3bb028fe7f90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\room">
+      <UniqueIdentifier>{fc9f1237-b388-4756-98d8-0c20f6564edc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\roomcpp">
+      <UniqueIdentifier>{fd43ba75-4789-4a7b-823f-131c3404933e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\camereTXT">
+      <UniqueIdentifier>{89a12e06-21ea-4e90-9b0e-08dc2d605e5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\camereTXT\Temnita">
+      <UniqueIdentifier>{92149e47-a6ff-4e3e-bea8-5662ac7192d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\camereTXT\Dormitor">
+      <UniqueIdentifier>{c11a95fa-2aec-454b-94ca-b73b106f31c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\camereTXT\Labirint">
+      <UniqueIdentifier>{5c82c26c-0eb1-4a1f-8bc5-40021450ecec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\camereTXT\MindRoom">
+      <UniqueIdentifier>{1d380d0c-bb35-4b3f-9849-7e3c7bf16ccb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\exceptieee">
+      <UniqueIdentifier>{009b5b88-f8ed-4014-b8a8-e8082e5fc6b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\exceptieeecpp">
+      <UniqueIdentifier>{1846ac59-ee31-43f4-b1c3-e1027ac373f6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Atribute.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CARasa.h">
+      <Filter>Header Files\rase</Filter>
+    </ClInclude>
+    <ClInclude Include="Elf.h">
+      <Filter>Header Files\rase</Filter>
+    </ClInclude>
+    <ClInclude Include="Goblin.h">
+      <Filter>Header Files\rase</Filter>
+    </ClInclude>
+    <ClInclude Include="Human.h">
+      <Filter>Header Files\rase</Filter>
+    </ClInclude>
+    <ClInclude Include="IRasa.h">
+      <Filter>Header Files\rase</Filter>
+    </ClInclude>
+    <ClInclude Include="Orc.h">
+      <Filter>Header Files\rase</Filter>
+    </ClInclude>
+    <ClInclude Include="CAClasa.h">
+      <Filter>Header Files\clase</Filter>
+    </ClInclude>
+    <ClInclude Include="Fighter.h">
+      <Filter>Header Files\clase</Filter>
+    </ClInclude>
+    <ClInclude Include="IClasa.h">
+      <Filter>Header Files\clase</Filter>
+    </ClInclude>
+    <ClInclude Include="Ninja.h">
+      <Filter>Header Files\clase</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorcerer.h">
+      <Filter>Header Files\clase</Filter>
+    </ClInclude>
+    <ClInclude Include="Warrior.h">
+      <Filter>Header Files\clase</Filter>
+    </ClInclude>
+    <ClInclude Include="Personaj.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory_rasa.h">
+      <Filter>Header Files\rase</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory_clasa.h">
+      <Filter>Header Files\clase</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Book.h">
+      <Filter>Header Files\room</Filter>
+    </ClInclude>
+    <ClInclude Include="Portal.h">
+      <Filter>Header Files\room</Filter>
+    </ClInclude>
+    <ClInclude Include="Room.h">
+      <Filter>Header Files\room</Filter>
+    </ClInclude>
+    <ClInclude Include="Statue.h">
+      <Filter>Header Files\room</Filter>
+    </ClInclude>
+    <ClInclude Include="Dungeon_Master.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Door.h">
+      <Filter>Header Files\room</Filter>
+    </ClInclude>
+    <ClInclude Include="Exceptie.h">
+      <Filter>Header Files\exceptieee</Filter>
+    </ClInclude>
+    <ClInclude Include="IExceptie.h">
+      <Filter>Header Files\exceptieee</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Atribute.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CARasa.cpp">
+      <Filter>Source Files\rasecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Elf.cpp">
+      <Filter>Source Files\rasecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Goblin.cpp">
+      <Filter>Source Files\rasecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Human.cpp">
+      <Filter>Source Files\rasecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="IRasa.cpp">
+      <Filter>Source Files\rasecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Orc.cpp">
+      <Filter>Source Files\rasecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="CAClasa.cpp">
+      <Filter>Source Files\clasecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Fighter.cpp">
+      <Filter>Source Files\clasecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="IClasa.cpp">
+      <Filter>Source Files\clasecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Ninja.cpp">
+      <Filter>Source Files\clasecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorcerer.cpp">
+      <Filter>Source Files\clasecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Warrior.cpp">
+      <Filter>Source Files\clasecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Personaj.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Factory_clasa.cpp">
+      <Filter>Source Files\clasecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Factory_rasa.cpp">
+      <Filter>Source Files\rasecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Book.cpp">
+      <Filter>Source Files\roomcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Portal.cpp">
+      <Filter>Source Files\roomcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Room.cpp">
+      <Filter>Source Files\roomcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Statue.cpp">
+      <Filter>Source Files\roomcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Dungeon_Master.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Door.cpp">
+      <Filter>Source Files\roomcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="IExceptie.cpp">
+      <Filter>Source Files\exceptieeecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Exceptie.cpp">
+      <Filter>Source Files\exceptieeecpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Camere.txt">
+      <Filter>Source Files\camereTXT</Filter>
+    </Text>
+    <Text Include="Temnita.txt">
+      <Filter>Source Files\camereTXT\Temnita</Filter>
+    </Text>
+    <Text Include="Temnita_Carte.txt">
+      <Filter>Source Files\camereTXT\Temnita</Filter>
+    </Text>
+    <Text Include="Temnita_Portal.txt">
+      <Filter>Source Files\camereTXT\Temnita</Filter>
+    </Text>
+    <Text Include="Temnita_Statuie.txt">
+      <Filter>Source Files\camereTXT\Temnita</Filter>
+    </Text>
+    <Text Include="Temnita_Usa.txt">
+      <Filter>Source Files\camereTXT\Temnita</Filter>
+    </Text>
+    <Text Include="Dormitor.txt">
+      <Filter>Source Files\camereTXT\Dormitor</Filter>
+    </Text>
+    <Text Include="Labirint.txt">
+      <Filter>Source Files\camereTXT\Labirint</Filter>
+    </Text>
+    <Text Include="MindRoom.txt">
+      <Filter>Source Files\camereTXT\MindRoom</Filter>
+    </Text>
+    <Text Include="Dormitor_Carte.txt">
+      <Filter>Source Files\camereTXT\Dormitor</Filter>
+    </Text>
+    <Text Include="Dormitor_Portal.txt">
+      <Filter>Source Files\camereTXT\Dormitor</Filter>
+    </Text>
+    <Text Include="Dormitor_Statuie.txt">
+      <Filter>Source Files\camereTXT\Dormitor</Filter>
+    </Text>
+    <Text Include="Dormitor_Usa.txt">
+      <Filter>Source Files\camereTXT\Dormitor</Filter>
+    </Text>
+    <Text Include="Labirint_Carte.txt">
+      <Filter>Source Files\camereTXT\Labirint</Filter>
+    </Text>
+    <Text Include="Labirint_Portal.txt">
+      <Filter>Source Files\camereTXT\Labirint</Filter>
+    </Text>
+    <Text Include="Labirint_Statuie.txt">
+      <Filter>Source Files\camereTXT\Labirint</Filter>
+    </Text>
+    <Text Include="Labirint_Usa.txt">
+      <Filter>Source Files\camereTXT\Labirint</Filter>
+    </Text>
+    <Text Include="MindRoom_Carte.txt">
+      <Filter>Source Files\camereTXT\MindRoom</Filter>
+    </Text>
+    <Text Include="MindRoom_Usa.txt">
+      <Filter>Source Files\camereTXT\MindRoom</Filter>
+    </Text>
+    <Text Include="MindRoom_Statuie.txt">
+      <Filter>Source Files\camereTXT\MindRoom</Filter>
+    </Text>
+    <Text Include="MindRoom_Portal.txt">
+      <Filter>Source Files\camereTXT\MindRoom</Filter>
+    </Text>
+    <Text Include="Dormitor_Enemy.txt">
+      <Filter>Source Files\camereTXT\Dormitor</Filter>
+    </Text>
+    <Text Include="Labirint_Enemy.txt">
+      <Filter>Source Files\camereTXT\Labirint</Filter>
+    </Text>
+    <Text Include="MindRoom_Enemy.txt">
+      <Filter>Source Files\camereTXT\MindRoom</Filter>
+    </Text>
+    <Text Include="Temnita_Enemy.txt">
+      <Filter>Source Files\camereTXT\Temnita</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
